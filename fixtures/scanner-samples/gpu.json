@@ -1,0 +1,9 @@
+[
+  {
+    "Model": "Example GPU 24G",
+    "DriverVersion": "566.14",
+    "VramMB": 24576,
+    "TemperatureC": 41,
+    "Status": "OK"
+  }
+]

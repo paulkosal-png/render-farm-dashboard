@@ -1,0 +1,26 @@
+[project]
+name = "farmdash"
+version = "0.1.0"
+description = "Read-only dashboard for a synthetic render farm: queue state, inventory, and plugin drift."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Paul Kosal" }]
+
+[tool.setuptools]
+packages = ["farmdash"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+
+[tool.ruff.lint.per-file-ignores]
+"farmdash/report_html.py" = ["E501"]

@@ -1,0 +1,145 @@
+{
+  "comment": "Synthetic inventory only. last_scan_hours_ago is resolved when the database is built.",
+  "machines": [
+    {
+      "name": "farm-01",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 1,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-02",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 2,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-03",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 1,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 16G", "driver_version": "566.14", "vram_mb": 16384 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-04",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 3,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 16G", "driver_version": "566.14", "vram_mb": 16384 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-05",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 1,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-06",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 2,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-07",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 4,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 16G", "driver_version": "551.86", "vram_mb": 16384 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-08",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 1,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.8.2" }
+      ]
+    },
+    {
+      "name": "farm-09",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 40,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 16G", "driver_version": "566.14", "vram_mb": 16384 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-10",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 2,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-11",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 5,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 16G", "driver_version": "551.86", "vram_mb": 16384 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "farm-12",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 1,
+      "ram_gb": 128,
+      "gpus": [{ "model": "Example GPU 24G", "driver_version": "566.14", "vram_mb": 24576 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "artist-01",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 6,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 12G", "driver_version": "551.86", "vram_mb": 12288 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2026.1", "plugin_name": "LightTrace", "plugin_version": "3.9.0" }
+      ]
+    },
+    {
+      "name": "artist-02",
+      "os_name": "Windows 11 Pro",
+      "last_scan_hours_ago": 8,
+      "ram_gb": 64,
+      "gpus": [{ "model": "Example GPU 12G", "driver_version": "566.14", "vram_mb": 12288 }],
+      "plugins": [
+        { "app_name": "SceneApp", "app_version": "2025.2", "plugin_name": "LightTrace", "plugin_version": "3.8.2" }
+      ]
+    }
+  ]
+}

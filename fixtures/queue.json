@@ -1,0 +1,190 @@
+{
+  "comment": "Synthetic render-queue snapshot. *_hours_ago fields are resolved at load time.",
+  "workers": [
+    {
+      "name": "farm-01",
+      "state": "idle",
+      "state_changed_hours_ago": 3,
+      "groups": ["render"],
+      "pools": ["general", "priority"],
+      "errors": []
+    },
+    {
+      "name": "farm-02",
+      "state": "rendering",
+      "state_changed_hours_ago": 1,
+      "groups": ["render", "gpu-heavy"],
+      "pools": ["general", "priority"],
+      "errors": []
+    },
+    {
+      "name": "farm-03",
+      "state": "stalled",
+      "state_changed_hours_ago": 5,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-04",
+      "state": "offline",
+      "state_changed_hours_ago": 18,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-05",
+      "state": "idle",
+      "state_changed_hours_ago": 2,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": [
+        { "time_hours_ago": 2, "job": "demo_spot_B", "message": "LightTrace ran out of VRAM while rendering the beauty pass" },
+        { "time_hours_ago": 3, "job": "demo_spot_B", "message": "LightTrace ran out of VRAM while rendering the beauty pass" },
+        { "time_hours_ago": 4, "job": "demo_spot_B", "message": "GPU memory allocation failed (VRAM exhausted)" },
+        { "time_hours_ago": 5, "job": "demo_spot_A", "message": "LightTrace ran out of VRAM while rendering the beauty pass" },
+        { "time_hours_ago": 6, "job": "demo_spot_A", "message": "LightTrace ran out of VRAM while rendering the beauty pass" },
+        { "time_hours_ago": 7, "job": "demo_spot_A", "message": "GPU memory allocation failed (VRAM exhausted)" }
+      ]
+    },
+    {
+      "name": "farm-06",
+      "state": "idle",
+      "state_changed_hours_ago": 4,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": [
+        { "time_hours_ago": 3, "job": "training_reel_01", "message": "SceneApp license checkout failed for LightTrace" },
+        { "time_hours_ago": 8, "job": "training_reel_01", "message": "SceneApp license checkout failed for LightTrace" }
+      ]
+    },
+    {
+      "name": "farm-07",
+      "state": "idle",
+      "state_changed_hours_ago": 6,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-08",
+      "state": "idle",
+      "state_changed_hours_ago": 2,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-09",
+      "state": "idle",
+      "state_changed_hours_ago": 1,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-10",
+      "state": "idle",
+      "state_changed_hours_ago": 2,
+      "groups": ["render"],
+      "pools": ["general", "priority"],
+      "errors": [
+        { "time_hours_ago": 4, "job": "product_loop_v3", "message": "SceneApp worker process crashed with a fatal exception" }
+      ]
+    },
+    {
+      "name": "farm-11",
+      "state": "idle",
+      "state_changed_hours_ago": 9,
+      "groups": ["render"],
+      "pools": ["general"],
+      "errors": []
+    },
+    {
+      "name": "farm-12",
+      "state": "rendering",
+      "state_changed_hours_ago": 0.5,
+      "groups": ["render", "gpu-heavy"],
+      "pools": ["general"],
+      "errors": []
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1001",
+      "name": "demo_spot_A",
+      "user": "artist-01",
+      "submitted_hours_ago": 30,
+      "status": "completed",
+      "plugin": "SceneApp",
+      "plugin_version": "2026.1",
+      "renderer": "LightTrace",
+      "renderer_version": "3.9.0",
+      "group": "render",
+      "pool": "general",
+      "frames_total": 240,
+      "frames_done": 240
+    },
+    {
+      "id": "job-1002",
+      "name": "demo_spot_B",
+      "user": "artist-02",
+      "submitted_hours_ago": 6,
+      "status": "rendering",
+      "plugin": "SceneApp",
+      "plugin_version": "2026.1",
+      "renderer": "LightTrace",
+      "renderer_version": "3.9.0",
+      "group": "render",
+      "pool": "general",
+      "frames_total": 180,
+      "frames_done": 72
+    },
+    {
+      "id": "job-1003",
+      "name": "training_reel_01",
+      "user": "artist-01",
+      "submitted_hours_ago": 12,
+      "status": "completed",
+      "plugin": "SceneApp",
+      "plugin_version": "2026.1",
+      "renderer": "LightTrace",
+      "renderer_version": "3.8.2",
+      "group": "render",
+      "pool": "general",
+      "frames_total": 96,
+      "frames_done": 96
+    },
+    {
+      "id": "job-1004",
+      "name": "product_loop_v3",
+      "user": "artist-03",
+      "submitted_hours_ago": 4,
+      "status": "queued",
+      "plugin": "SceneApp",
+      "plugin_version": "2026.1",
+      "renderer": "LightTrace",
+      "renderer_version": "3.9.0",
+      "group": "render",
+      "pool": "priority",
+      "frames_total": 48,
+      "frames_done": 0
+    },
+    {
+      "id": "job-1005",
+      "name": "color_study_alpha",
+      "user": "artist-02",
+      "submitted_hours_ago": 2,
+      "status": "queued",
+      "plugin": "SceneApp",
+      "plugin_version": "2026.1",
+      "renderer": "LightTrace",
+      "renderer_version": "3.9.0",
+      "group": "gpu-heavy",
+      "pool": "general",
+      "frames_total": 32,
+      "frames_done": 0
+    }
+  ]
+}
